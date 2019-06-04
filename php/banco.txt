@@ -1,0 +1,8 @@
+create database pweb2Php;
+use pweb2Php;
+create table usuario(
+	id int auto_increment,
+	nome varchar(100),
+	cpf varchar(14),
+	endereco varchar(100),
+	primary key(id));
